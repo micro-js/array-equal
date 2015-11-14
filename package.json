@@ -1,0 +1,13 @@
+{
+  "name": "array-equal",
+  "description": "Check if two arrays have shallow equality",
+  "repository": "git://github.com/micro-js/array-equal.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "2.x",
+    "standard": "^4.0.0"
+  }
+}
