@@ -12,6 +12,7 @@ Check if two arrays have shallow equality
 ## Usage
 
 `arrayEqual([1, 2], [1, 2]) === true`
+
 `arrayEqual([1, 2], [1, 2, 3]) === false`
 
 
