@@ -29,7 +29,7 @@ equal([1, 2], [1, 2, 3]) // => false
 - `arr1` - First array.
 - `arr2` - Second array.
 
-**Returns:** The combined reducer map as a single reducing function.
+**Returns:** Boolean.
 
 ## License
 
