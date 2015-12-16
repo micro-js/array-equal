@@ -1,29 +1,45 @@
 
-# array-equal
+# equal-array
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Build status][travis-image]][travis-url]
+[![Git tag][git-image]][git-url]
+[![NPM version][npm-image]][npm-url]
+[![Code style][standard-image]][standard-url]
 
 Check if two arrays have shallow equality
 
 ## Installation
 
-    $ npm install @f/array-equal
+    $ npm install @f/equal-array
 
 ## Usage
 
-`arrayEqual([1, 2], [1, 2]) === true`
+```js
+var equal = require('@f/equal-array')
 
-`arrayEqual([1, 2], [1, 2, 3]) === false`
+equal([1, 2], [1, 2]) // => true
+equal([1, 2], [1, 2, 3]) // => false
 
+```
+
+## API
+
+### equal(arr1, arr2)
+
+- `arr1` - First array.
+- `arr2` - Second array.
+
+**Returns:** The combined reducer map as a single reducing function.
 
 ## License
 
-The MIT License
+MIT
 
-Copyright &copy; 2015, Weo.io &lt;info@weo.io&gt;
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[travis-image]: https://img.shields.io/travis/micro-js/equal-array.svg?style=flat-square
+[travis-url]: https://travis-ci.org/micro-js/equal-array
+[git-image]: https://img.shields.io/github/tag/micro-js/equal-array.svg
+[git-url]: https://github.com/micro-js/equal-array
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-url]: https://github.com/feross/standard
+[npm-image]: https://img.shields.io/npm/v/@f/equal-array.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/equal-array
