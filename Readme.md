@@ -7,7 +7,7 @@ Check if two arrays have shallow equality
 
 ## Installation
 
-    $ npm install @micro-js/array-equal
+    $ npm install @f/array-equal
 
 ## Usage
 
