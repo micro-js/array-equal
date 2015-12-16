@@ -2,7 +2,7 @@
   "name": "@f/array-equal",
   "description": "Check if two arrays have shallow equality",
   "repository": "git://github.com/micro-js/array-equal.git",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
