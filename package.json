@@ -1,5 +1,5 @@
 {
-  "name": "@f/array-equal",
+  "name": "@f/equal-array",
   "description": "Check if two arrays have shallow equality",
   "repository": "git://github.com/micro-js/equal-array.git",
   "version": "1.2.1",
